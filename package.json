@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.2",
+    "@octokit/rest": "^19.0.3",
+    "@uniformdev/design-system": "^17.0.0",
+    "@uniformdev/mesh-sdk-react": "^17.0.0",
+    "front-matter": "^4.0.2",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2"
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4"
   }
 }
