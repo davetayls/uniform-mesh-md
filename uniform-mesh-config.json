@@ -3,7 +3,7 @@
     "canvas": {
       "parameterTypes": [
         {
-          "type": "uniform-mesh-md-markdown",
+          "type": "github-markdown",
           "editorUrl": "/md-canvas-parameter-editor",
           "displayName": "Markdown",
           "configureUrl": "/md-canvas-parameter-config"
@@ -12,7 +12,7 @@
     },
     "install": {
       "description": [
-        "uniform-mesh-md"
+        "Choose files from Github Repository"
       ]
     },
     "settings": {
