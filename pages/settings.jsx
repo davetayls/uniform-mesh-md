@@ -32,6 +32,7 @@ const SettingsInner = ({ settings, onSettingsChange }) => {
     owner: "",
     repo: "",
     path: "",
+    token: "",
     isSubmitting: false,
     saveSuccess: false,
   });
@@ -44,6 +45,7 @@ const SettingsInner = ({ settings, onSettingsChange }) => {
         owner: settings?.owner || "",
         repo: settings?.repo || "",
         path: settings?.path || "",
+        token: settings?.token || "",
       };
     });
   }, [settings]);
@@ -75,6 +77,7 @@ const SettingsInner = ({ settings, onSettingsChange }) => {
         owner: formState.owner,
         repo: formState.repo,
         path: formState.path,
+        token: formState.token,
       });
 
       setFormState((prev) => ({
@@ -129,6 +132,17 @@ const SettingsInner = ({ settings, onSettingsChange }) => {
           placeholder="/content"
           onChange={handleInputChange}
           value={formState.path}
+        />
+      </div>
+      <div className="container-with-vertical-padding">
+        <Input
+          id="token"
+          name="token"
+          label="Personal Access Token"
+          type="password"
+          placeholder="ghp_???"
+          onChange={handleInputChange}
+          value={formState.token}
         />
       </div>
 

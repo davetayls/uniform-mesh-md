@@ -1,8 +1,9 @@
 {
-  "name": "uniform-mesh-printful",
+  "name": "uniform-mesh-md",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "vercel:dev": "vercel dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,8 +11,8 @@
   },
   "dependencies": {
     "@octokit/rest": "^19.0.3",
-    "@uniformdev/design-system": "^17.0.0",
-    "@uniformdev/mesh-sdk-react": "^17.0.0",
+    "@uniformdev/design-system": "^17.1.0",
+    "@uniformdev/mesh-sdk-react": "^17.1.0",
     "front-matter": "^4.0.2",
     "isomorphic-unfetch": "^3.1.0",
     "next": "^12.2.4",
@@ -19,7 +20,9 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.14",
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4"
+    "eslint-config-next": "12.2.4",
+    "typescript": "^4.8.2"
   }
 }

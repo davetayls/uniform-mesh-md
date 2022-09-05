@@ -1,11 +1,11 @@
-import React from "react";
+import { AppProps } from 'next/app'
 import "../styles/globals.css";
 import {
   useInitializeUniformMeshSdk,
   UniformMeshSdkContextProvider,
 } from "@uniformdev/mesh-sdk-react";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const { initializing, error } = useInitializeUniformMeshSdk();
 
   if (error) {
