@@ -1,0 +1,23 @@
+{
+  "locations": {
+    "canvas": {
+      "parameterTypes": [
+        {
+          "type": "uniform-mesh-md-markdown",
+          "editorUrl": "/md-canvas-parameter-editor",
+          "displayName": "Markdown",
+          "configureUrl": "/md-canvas-parameter-config"
+        }
+      ]
+    },
+    "install": {
+      "description": [
+        "uniform-mesh-md"
+      ]
+    },
+    "settings": {
+      "url": "/settings"
+    }
+  },
+  "baseLocationUrl": "http://localhost:3000"
+}
